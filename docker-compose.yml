@@ -19,7 +19,7 @@ services:
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     ports:
-      - "3306:3306"
+      - "3307:3306"
     restart: unless-stopped
 volumes:
   db_data:
